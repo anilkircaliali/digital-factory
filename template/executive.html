@@ -22,15 +22,14 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo1.svg" class="mr-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="images/logo.svg" class="mr-2" alt="logo"/></a>
         <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo.svg" alt="logo"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
           <span class="ti-view-list"></span>
         </button>
-        <!-- 
-        <ul class="navbar-nav mr-lg-2">
+        <!-- <ul class="navbar-nav mr-lg-2">
           <li class="nav-item nav-search d-none d-lg-block">
             <div class="input-group">
               <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
@@ -41,8 +40,7 @@
               <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
             </div>
           </li>
-        </ul> 
-        -->
+        </ul> -->
         <ul class="navbar-nav navbar-nav-right">
           <!--
           <li class="nav-item dropdown mr-1">
@@ -256,7 +254,7 @@
             <div class="col-md-12 grid-margin">
               <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <h4 class="font-weight-bold mb-0">Analytics Dashboard</h4>
+                  <h4 class="font-weight-bold mb-0">Executive Dashboard</h4>
                 </div>
                 <div>
                     <button type="button" onclick="window.location.href='/pages/forms/report_bug.html'" class="btn btn-primary btn-icon-text btn-rounded">
@@ -266,6 +264,7 @@
               </div>
             </div>
           </div>
+          <!-- 
           <div class="row">
             <div class="col-md-3 grid-margin stretch-card">
               <div class="card">
@@ -273,12 +272,10 @@
                   <p class="card-title text-md-center text-xl-left">Power State</p>
                  
                   <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
-                    <!-- The value ON/OFF below should be auto populated from the machine condition -->
                     <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">ON</h3>
                     <i class="ti-calendar icon-md text-muted mb-0 mb-md-3 mb-xl-0"></i>
                   </div>
                   <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
-                    <!-- The time on/off below should be auto populated based on how long the machine's been in operation -->
                     <p class="mb-0 mt-2 text-info">1.72 hours</p>
                   </div>
                 </div>
@@ -320,7 +317,8 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
+          -->
           <div class="row">
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card">
@@ -377,63 +375,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-7 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-title mb-0">Scheduled Jobs</p>
-                  <div class="table-responsive">
-                    <table class="table table-hover">
-                      <thead>
-                        <tr>
-                          <th>Researcher</th>
-                          <th>Operator</th>
-                          <th>Date</th>
-                          <th>Status</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Anil</td>
-                          <td>Sam</td>
-                          <td>8/28</td>
-                          <td><label class="badge badge-danger">Pending</label></td>
-                        </tr>
-                        <tr>
-                          <td>Denzel</td>
-                          <td>Sam</td>
-                          <td>8/27</td>
-                          <td><label class="badge badge-warning">In progress</label></td>
-                        </tr>
-                        <tr>
-                          <td>John</td>
-                          <td>Premier</td>
-                          <td class="text-danger"> 35.00% <i class="ti-arrow-down"></i></td>
-                          <td><label class="badge badge-info">Fixed</label></td>
-                        </tr>
-                        <tr>
-                          <td>Peter</td>
-                          <td>After effects</td>
-                          <td class="text-success"> 82.00% <i class="ti-arrow-up"></i></td>
-                          <td><label class="badge badge-success">Completed</label></td>
-                        </tr>
-                        <tr>
-                          <td>Dave</td>
-                          <td>53275535</td>
-                          <td class="text-success"> 98.05% <i class="ti-arrow-up"></i></td>
-                          <td><label class="badge badge-warning">In progress</label></td>
-                        </tr>
-                        <tr>
-                          <td>Messsy</td>
-                          <td>Flash</td>
-                          <td class="text-danger"> 21.06% <i class="ti-arrow-down"></i></td>
-                          <td><label class="badge badge-info">Fixed</label></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <!--
             <div class="col-md-5 grid-margin stretch-card">
 							<div class="card">
@@ -589,7 +531,7 @@
         <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
             <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Automated Digital Factory Development Team. University of South Carolina Department of Mechanical Engineering.</span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">DEMO. August 2019.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">DEMO.</span>
           </div>
         </footer>
         <!-- partial -->
